@@ -122,7 +122,7 @@ class LinkViewVertical extends StatelessWidget {
 
   Widget _buildBodyContainer(TextStyle bodyTS_, int? maxLines_) {
     return Expanded(
-      flex: 1,
+      // flex: 1,
       child: Padding(
         padding: const EdgeInsets.fromLTRB(10, 0, 5, 5),
         child: Container(
