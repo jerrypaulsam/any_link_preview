@@ -93,7 +93,7 @@ class LinkViewVertical extends StatelessWidget {
                   : SizedBox(height: 5),
               _buildTitleContainer(
                   titleTS_, computeTitleLines(layoutHeight, layoutWidth)),
-              _buildBodyContainer(bodyTS_, computeBodyLines(layoutHeight)),
+              // _buildBodyContainer(bodyTS_, computeBodyLines(layoutHeight)),
             ],
           ));
     });
