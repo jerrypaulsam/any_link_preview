@@ -402,7 +402,7 @@ class AnyLinkPreviewState extends State<AnyLinkPreview> {
         ((widget.displayDirection == UIDirection.uiDirectionHorizontal ||
                 !widget.showMultimedia)
             ? ((MediaQuery.of(context).size.height) * 0.15)
-            : ((MediaQuery.of(context).size.height) * 0.25));
+            : ((MediaQuery.of(context).size.height) * 0.15));
 
     Widget loadingErrorWidget = Container(
       height: height,
